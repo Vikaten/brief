@@ -8,14 +8,14 @@ body {
      
 } 
  
-.header-container { 
-    /* width: 100vh; */ 
-    margin-left: 238px; 
-    margin-top: 252px; 
+.container { 
+    max-width: 1220px;
+    margin: 0 auto;
 } 
  
 #header-title { 
     /* width: 802px; */ 
+    margin-top: 252px;
     font-size: 64px; 
     font-weight: 300; 
 } 
