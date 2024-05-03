@@ -6,7 +6,7 @@
 body, html { 
     font-family: "Jura", sans-serif; 
     height: 100%;
-    font-size: 28px; 
+    font-size: 24px; 
 } 
  
 .container { 
@@ -14,20 +14,20 @@ body, html {
     margin: 0 auto;
 } 
 
-#header {
+.header {
    height: 100vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
 }
  
-#header-title { 
+.header-title { 
     font-size: 64px; 
     font-weight: 300; 
     margin-bottom: 40px;
 } 
  
-#header-span { 
+.header-span { 
     color: #AAB09A; 
 } 
  
@@ -41,11 +41,11 @@ body, html {
     font-family: "Jura", sans-serif; 
 } 
  
-#header-arrow { 
+.header-arrow { 
     width: 70px; 
 } 
  
-#header-button-black-white { 
+.header-button-black-white { 
     border-radius: 50px; 
     width: 40px; 
     height: 40px; 
@@ -68,18 +68,18 @@ body, html {
     align-items: center;
 }
 
-#aboutme {
+.aboutme {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 0,5fr 4fr 4fr;
     margin-bottom: 60px;
 }
 
-#photo-me {
+.photo-me {
     width: 300px;
 }
 
-#text-about-me {
+.text-about-me {
     background-color: #D9D9D9;
     grid-column-start: 2;
     grid-column-end: 4;
@@ -88,31 +88,31 @@ body, html {
     gap: 40px;
 }
 
-#button-about-me {
+.button-about-me {
     background-color: #AAB09A;
     margin: 0;
 }
 
-#develop {
+.develop {
     background-color: #D9D9D9;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-#design {
+.design {
     background-color: #AAB09A;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-#experience {
+.experience {
     grid-column-start: 1;
     grid-column-end: 2;
 }
 
-#text-experience {
+.text-experience {
     background-color: #AAB09A;
     grid-column-start: 2;
     grid-column-end: 4;
@@ -121,25 +121,25 @@ body, html {
     gap: 40px;
 }
 
-#text-education {
+.text-education {
     background-color: #AAB09A;
 }
 
-#education-place {
+.education-place {
     background-color: #D9D9D9;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-#portfolio {
+.portfolio {
     display: flex;
     gap: 10px;
     margin-bottom: 60px;
 }
 
 .title { 
-    font-size: 48px; 
+    font-size: 40px; 
     font-weight: 300; 
     margin-bottom: 40px;
     text-align: center;
@@ -151,14 +151,14 @@ body, html {
     border-radius: 25px;
 }
 
-#contact-with-me {
+.contact-with-me {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 60px;
 }
 
-#my-contacts {
+.my-contacts {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,13 +170,13 @@ body, html {
     height: 40px;
 }
 
-#my-contacts-images {
+.my-contacts-images {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-#footer {
+.footer {
     height: 50px;
     width: 100%;
     background-color: #eeeeee;
