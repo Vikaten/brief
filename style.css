@@ -7,13 +7,12 @@ body, html {
     color:#000;
     background-color: #fff;
     font-family: "Jura", sans-serif; 
-    height: 100%;
     font-size: 24px; 
 } 
 
 .dark-mode {
     color: #fff;
-    background-color: #262222;
+    background-color: #2f2f2f;
 }
  
 .container { 
@@ -71,7 +70,7 @@ a {
     width: 70px; 
 } 
  
-.header-button-black-white { 
+.button-black-white { 
     border-radius: 50px; 
     width: 40px; 
     height: 40px; 
