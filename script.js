@@ -9,6 +9,13 @@ const links = document.querySelectorAll('.link');
 const arrow = document.querySelector('.header-arrow');
 let isDarkMode = false;
 
+if (localStorage.getItem('dark-mode') === 'on') {
+    toDarkMode();
+}
+else {
+    toLightMode();
+}
+
 const contacts = document.querySelector('.my-contacts');
 button_bw.addEventListener('click', () => {
     if(!isDarkMode) {
@@ -17,7 +24,9 @@ button_bw.addEventListener('click', () => {
     else {
         toLightMode();
     }
-})
+
+    localStorage.setItem('dark-mode', isDarkMode ? 'on' : 'off');
+});
 
 function toDarkMode() {
     body.classList.add('dark-mode');
@@ -42,9 +51,6 @@ function toLightMode() {
     links.forEach(link => {
         link.style.color = 'black';
     }); 
-    aboutMe.forEach(el => {
-        el.style.color = 'white';
-    });
     button_bw.style.borderColor = 'black';
     isDarkMode = false;
 }
