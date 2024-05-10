@@ -4,10 +4,17 @@
 } 
  
 body, html { 
+    color:#000;
+    background-color: #fff;
     font-family: "Jura", sans-serif; 
     height: 100%;
     font-size: 24px; 
 } 
+
+.dark-mode {
+    color: #fff;
+    background-color: #262222;
+}
  
 .container { 
     max-width: 1220px;
@@ -176,7 +183,7 @@ a {
     transition: 2s;
 }
 
-.portfolio-image:hover {
+.block:hover .portfolio-image{
     transform: scale(1.1);
     filter: blur(4px);
 }
@@ -190,7 +197,7 @@ a {
     position: absolute; 
 }
 
-.block:hover .portfolio-text{
+.block:hover .portfolio-text {
     opacity: 1;
     transition: 2s;
 }

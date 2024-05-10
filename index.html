@@ -7,17 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="animate.css">
     <title>Document</title> 
 </head> 
 <body> 
     <header> 
         <div class="container"> 
             <div class="header">
-                <h1 class="header-title">Привет! Я <span class="header-span">Виктория</span><br>и я Frontend-разработчик</h1> 
-                <a href="#go"><button class="button" type="button">продолжить 
+                <h1 class="header-title wow slideInLeft">Привет! Я <span class="header-span">Виктория</span><br>и я Frontend-разработчик</h1> 
+                <a href="#go"><button class="button wow slideInLeft" type="button">продолжить 
                 <img class="header-arrow" src="./assets/arrow.png" alt="стрелка"> 
                 </button></a> 
-                <button class="header-button-black-white" type="button"></button> 
+                <button class="button-black-white" type="button"></button> 
             </div>
         </div> 
     </header> 
@@ -56,30 +57,30 @@
                     <p>Обучение на курсе ‘Графический дизайн’. </p>
                 </div>
             </div>
-            <h1 class="title">Портфолио</h1>
+            <h1 class="title wow fadeInUp">Портфолио</h1>
             <div class="portfolio">
-                <div class="portfolio-item">
+                <div class="portfolio-item wow fadeInUp">
                     <div class="block">
-                        <a href="https://vikaten.github.io/toDoList/"><img class="portfolio-image" src="assets/todolist.png" alt="превью"></a>
-                        <p class="portfolio-text"> ▶ Посмотреть</p>
+                        <img class="portfolio-image" src="assets/todolist.png" alt="превью">
+                        <a href="https://vikaten.github.io/toDoList/"><p class="portfolio-text"> ▶ Посмотреть</p></a>
                     </div>
                     <a href="https://vikaten.github.io/toDoList/">To do list</a>
                     <p>Февраль, 2024</p>
                 </div>
-                <div class="portfolio-item">
+                <div class="portfolio-item wow fadeInUp">
                     <div class="block">
-                        <a href="https://vikaten.github.io/Slider/"><img class="portfolio-image" src="assets/slider.png" alt="превью"></a>
-                        <p class="portfolio-text">▶ Посмотреть</p>
+                       <img class="portfolio-image" src="assets/slider.png" alt="превью">
+                        <a href="https://vikaten.github.io/Slider/"><p class="portfolio-text">▶ Посмотреть</p></a>
                     </div>
                     <a href="https://vikaten.github.io/Slider/">Slider "Models"</a>
                     <p>Апрель, 2024</p>
                 </div>
             </div>
-            <div class="contact-with-me">
+            <div class="contact-with-me wow fadeInUp">
                 <h1 class="title">Связаться со мной</h1>
                 <a href="mailto:vikaten06@gmail.com"><button class="button" type="button">напишите мне</button></a>
             </div>
-            <div class="my-contacts">
+            <div class="my-contacts wow fadeInUp">
                 <h1 class="title">Мoи контакты</h1>
                 <div class="my-contacts-images">
                     <a href="https://web.telegram.org/k/#@teiltor"><img class="my-contacts-image" src="assets/tg-for-white.png" alt="telegram"></a>       
@@ -94,5 +95,10 @@
             <p style="font-size: 16px;">Viktoria 2024.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body> 
 </html>
