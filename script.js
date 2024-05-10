@@ -14,13 +14,10 @@ button_bw.addEventListener('click', () => {
     if(!isDarkMode) {
         toDarkMode();
     }
-})
-
-button_bw.addEventListener('click', () => {
-    if (isDarkMode) {
+    else {
         toLightMode();
     }
-});
+})
 
 function toDarkMode() {
     body.classList.add('dark-mode');
