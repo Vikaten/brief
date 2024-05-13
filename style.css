@@ -61,7 +61,7 @@ a {
     background-color: #AAB09A; 
     border-radius: 25px; 
     border: none; 
-    font-size: 28px; 
+    font-size: 24px; 
     font-family: "Jura", sans-serif; 
 } 
 
@@ -343,6 +343,10 @@ a {
     .portfolio-image {
         width: 400px;
     }
+
+    .portfolio-text {
+        font-size: 29px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -403,7 +407,7 @@ a {
     }
 
     .footer {
-        height: 20px;
+        height: 25px;
     }
 
     .margin-for-blocks {
@@ -411,6 +415,10 @@ a {
     }
 
     .footer-text {
-        font-size: 10px;
+        font-size: 12px;
+    }
+
+    .portfolio-text {
+        font-size: 22px;
     }
 }
